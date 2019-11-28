@@ -7,6 +7,8 @@ public class WritableCompare implements WritableComparable {
     private int a;
     private int b;
 
+    
+
     void readFields(DataInput in);
     void write(DataOutput out);
     int compareTo(WritableComparable o)
