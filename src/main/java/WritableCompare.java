@@ -1,4 +1,8 @@
-package PACKAGE_NAME;
+import org.apache.hadoop.io.WritableComparable;
 
-public class WritableCompare {
+public class WritableCompare implements WritableComparable {
+
 }
+
+
+
