@@ -1,6 +1,13 @@
 import org.apache.hadoop.io.Writable;
 
-public class WritableRace implements Writable {
-    public 
+import java.io.DataInput;
+import java.io.IOException;
 
+public class WritableRace implements Writable {
+    @Override
+    public void readFields(DataInput dataInput) {
+
+    }
+
+    
 }
