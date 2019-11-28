@@ -19,7 +19,7 @@ public class WritableCompare implements WritableComparable {
         out.write(b);
     };
 
-    int compareTo(WritableComparable o){
+    int compareTo(WritableComparable c){
         int presentValue = this.value;
 
     }
