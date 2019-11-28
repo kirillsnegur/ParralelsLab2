@@ -20,8 +20,7 @@ public class WritableCompare implements WritableComparable {
     };
 
     int compareTo(WritableComparable o){
-        int
-                
+        int presentValue = 
     }
 
 }
