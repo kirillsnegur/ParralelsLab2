@@ -17,6 +17,7 @@ public class WritableRace implements Writable {
 
     @Override
     public void write(DataOutput dataOutput) {
+        
 
     }
 }
