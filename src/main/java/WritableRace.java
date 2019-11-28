@@ -11,7 +11,8 @@ public class WritableRace implements Writable {
 
     @Override
     public void readFields(DataInput dataInput) throws IOException {
-        first.readFields();
+        first.readFields(dataInput);
+        second.readFields(dataInput);
     }
 
     @Override
