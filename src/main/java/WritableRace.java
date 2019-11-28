@@ -7,8 +7,8 @@ import java.io.DataOutput;
 import java.io.IOException;
 
 public class WritableRace implements Writable {
-    public Text first;
-    public Text second;
+    private Text first;
+    private Text second;
 
     @Override
     public void readFields(DataInput dataInput) throws IOException {
