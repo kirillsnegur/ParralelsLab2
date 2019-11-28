@@ -2,6 +2,7 @@ import org.apache.hadoop.io.WritableComparable;
 
 import java.io.DataInput;
 import java.io.DataOutput;
+import java.io.IOException;
 
 public class WritableCompare implements WritableComparable {
     private int a;
@@ -10,7 +11,7 @@ public class WritableCompare implements WritableComparable {
 
 
     void readFields(DataInput in);
-    void write(DataOutput out) tr{
+    void write(DataOutput out) throws IOException {
 
     };
     int compareTo(WritableComparable o)
