@@ -10,9 +10,12 @@ public class WritableCompare implements WritableComparable {
 
 
 
-    void readFields(DataInput in);
+    void readFields(DataInput in) throws IOException{
+        
+    };
     void write(DataOutput out) throws IOException {
         out.write(a);
+        out.write(b);
     };
     int compareTo(WritableComparable o)
 
