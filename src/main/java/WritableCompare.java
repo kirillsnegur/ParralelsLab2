@@ -22,7 +22,7 @@ public class WritableCompare implements WritableComparable {
     int compareTo(WritableComparable c){
         int presentValue = this.value;
         int CompareValue = c.value;
-        return presentValue < CompareValue
+        return presentValue < CompareValue ? -1 :
     }
 
 }
