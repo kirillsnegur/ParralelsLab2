@@ -18,8 +18,10 @@ public class WritableCompare implements WritableComparable {
         out.write(a);
         out.write(b);
     };
-    
-    int compareTo(WritableComparable o)
+
+    int compareTo(WritableComparable o){
+        
+    }
 
 }
 
