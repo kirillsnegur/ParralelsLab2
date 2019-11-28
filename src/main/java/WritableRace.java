@@ -10,8 +10,8 @@ public class WritableRace implements Writable {
     public Text second;
 
     @Override
-    public void readFields(DataInput dataInput) throws  {
-
+    public void readFields(DataInput dataInput) throws IOException {
+        first.readFields();
     }
 
     @Override
