@@ -9,7 +9,7 @@ public class WritableCompare implements WritableComparable {
     public int b;
 
 
-    pubvoid readFields(DataInput in) throws IOException{
+    public void readFields(DataInput in) throws IOException{
         a = readFields(a);
         b = readFields(b);
     };
