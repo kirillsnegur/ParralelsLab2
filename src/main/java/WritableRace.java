@@ -1,3 +1,5 @@
-public class WritableRace implements Write{
+import org.apache.hadoop.io.Writable;
+
+public class WritableRace implements Writable {
 
 }
