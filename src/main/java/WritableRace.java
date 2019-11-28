@@ -1,5 +1,6 @@
 import org.apache.hadoop.io.Writable;
 import org.apache.hadoop.io.Text;
+import org.mortbay.util.IO;
 
 import java.io.DataInput;
 import java.io.DataOutput;
@@ -16,8 +17,8 @@ public class WritableRace implements Writable {
     }
 
     @Override
-    public void write(DataOutput dataOutput) {
-        
-
+    public void write(DataOutput dataOutput) throws IOException {
+        first.write(dataInput);
+        second.readFields(dataInput);
     }
 }
