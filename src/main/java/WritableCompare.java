@@ -5,8 +5,8 @@ import java.io.DataOutput;
 import java.io.IOException;
 
 public class WritableCompare implements WritableComparable {
-    public int a;
-    public int b;
+    private int a;
+    private int b;
 
 
     public void readFields(DataInput in) throws IOException{
