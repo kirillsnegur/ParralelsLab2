@@ -10,7 +10,9 @@ public class WritableCompare implements WritableComparable {
 
 
     void readFields(DataInput in);
-    void write(DataOutput out);
+    void write(DataOutput out) tr{
+
+    };
     int compareTo(WritableComparable o)
 
 }
