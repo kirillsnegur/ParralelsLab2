@@ -6,12 +6,12 @@ import java.io.IOException;
 
 public class WritableRace implements Writable {
     @Override
-    public void write(DataOutput dataOutput) {
+    public void readFields(DataInput dataInput) {
 
     }
-    
+
     @Override
-    public void readFields(DataInput dataInput) {
+    public void write(DataOutput dataOutput) {
 
     }
 }
