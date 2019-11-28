@@ -11,7 +11,8 @@ public class WritableCompare implements WritableComparable {
 
 
     void readFields(DataInput in) throws IOException{
-        
+        a = readFields(a);
+        b = readFields(b);
     };
     void write(DataOutput out) throws IOException {
         out.write(a);
