@@ -1,2 +1,3 @@
-public class WritableRace {
+public class WritableRace implements {
+
 }
