@@ -12,7 +12,7 @@ public class WritableCompare implements WritableComparable {
 
     void readFields(DataInput in);
     void write(DataOutput out) throws IOException {
-        
+        out.write();
     };
     int compareTo(WritableComparable o)
 
