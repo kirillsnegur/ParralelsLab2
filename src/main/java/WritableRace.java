@@ -11,7 +11,7 @@ public class WritableRace implements Writable {
 
     @Override
     public void readFields(DataInput dataInput) {
-        first.
+        
     }
 
     @Override
