@@ -5,16 +5,16 @@ import java.io.DataOutput;
 import java.io.IOException;
 
 public class WritableCompare implements WritableComparable {
-    private int a;
-    private int b;
+    public int a;
+    public int b;
 
 
-    void readFields(DataInput in) throws IOException{
+    pubvoid readFields(DataInput in) throws IOException{
         a = readFields(a);
         b = readFields(b);
     };
 
-    void write(DataOutput out) throws IOException {
+    public void write(DataOutput out) throws IOException {
         out.write(a);
         out.write(b);
     };
