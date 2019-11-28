@@ -8,12 +8,12 @@ public class WritableCompare implements WritableComparable {
     private int a;
     private int b;
 
-
-
+    
     void readFields(DataInput in) throws IOException{
         a = readFields(a);
         b = readFields(b);
     };
+
     void write(DataOutput out) throws IOException {
         out.write(a);
         out.write(b);
