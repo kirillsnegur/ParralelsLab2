@@ -21,7 +21,7 @@ public class WritableCompare implements WritableComparable {
 
     int compareTo(WritableComparable o){
         int presentValue = this.value;
-        
+
     }
 
 }
