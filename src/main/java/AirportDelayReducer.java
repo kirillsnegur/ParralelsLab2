@@ -5,7 +5,7 @@ import javax.xml.soap.Text;
 import java.io.IOException;
 import java.util.Iterator;
 
-public class AirportDelayReducer extends Reducer<RaceComparable, Text, Text, LongWritable> {
+public class AirportDelayReducer extends Reducer<RaceComparable, Text, Text, Text> {
 
     @Override
     protected void reduce(RaceComparable key, Iterable<Text> values, Context context) throws IOException, InterruptedException {
