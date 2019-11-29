@@ -4,13 +4,17 @@ import java.io.DataInput;
 import java.io.DataOutput;
 import java.io.IOException;
 
-public class RaceComparable implements WritableComparable {
+public class RaceComparable implements WritableComparable<RaceComparable> {
 
     private int airport_id;
     private int value;
 
-    public int getAirport_id(){
+    private int getAirport_id(){
         return airport_id;
+    }
+
+    private int getValue() {
+        return value;
     }
 
     public void readFields(DataInput in) throws IOException{
@@ -24,11 +28,11 @@ public class RaceComparable implements WritableComparable {
     };
 
     public int compareTo(RaceComparable c){
-        int presentValue = this.get;
-        int CompareValue = ;
-        return presentValue < CompareValue ? -1 : (presentValue == CompareValue) ? 0 : -1));
+        int presentID = this.getAirport_id();
+        int compareID = c.getAirport_id();
+        int compID = Integer.compare(presentID, compareID);
+        return (compID != 0) ? compID : Integer.compare(this.getValue(), c.getValue());
     }
-
 }
 
 
