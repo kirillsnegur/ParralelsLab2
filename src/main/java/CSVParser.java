@@ -1,5 +1,4 @@
-package map
-        
+package mapreduce.
 
 public class CSVParser {
 
