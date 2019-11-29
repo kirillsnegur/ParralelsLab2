@@ -6,6 +6,8 @@ public class CSVParser {
         return str.toString().split(",");
     };
 
-    public static boolean isArrDelay
+    public static boolean isArrDelay(String v){
+        
+    }
 
 }
