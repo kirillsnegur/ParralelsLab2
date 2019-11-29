@@ -15,12 +15,12 @@ public class RaceComparable implements WritableComparable {
 
     public void readFields(DataInput in) throws IOException{
         airport_id = in.readInt();
-        b = in.readInt();
+        value = in.readInt();
     };
 
     public void write(DataOutput out) throws IOException {
         out.write(airport_id);
-        out.write(b);
+        out.write(value);
     };
 
     public int compareTo(RaceComparable c){
