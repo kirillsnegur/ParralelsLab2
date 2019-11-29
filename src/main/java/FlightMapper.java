@@ -11,6 +11,6 @@ public class FlightMapper extends Mapper<LongWritable, Text, RaceComparable, Tex
         String attr[] = CSVParser.parseString(value);
         RaceComparable = new RaceComparable();
         Text delay = new Text();
-        
+        context
     }
 }
