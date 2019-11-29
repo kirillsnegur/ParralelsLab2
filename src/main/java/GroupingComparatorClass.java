@@ -1,4 +1,2 @@
-package PACKAGE_NAME;
-
-public class GroupingComparatorClass {
+public class GroupingComparatorClass extends  {
 }
