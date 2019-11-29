@@ -82,8 +82,8 @@
       <file leaf-file-name="AirportDelayReducer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/AirportDelayReducer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+            <state relative-caret-position="210">
+              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -336,12 +336,12 @@
       <workItem from="1573203857134" duration="1162000" />
       <workItem from="1573244381240" duration="25000" />
       <workItem from="1574948563582" duration="3867000" />
-      <workItem from="1575027392502" duration="14403000" />
+      <workItem from="1575027392502" duration="14645000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24243000" />
+    <option name="totallyTimeSpent" value="24485000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="103" y="23" width="1295" height="1057" extended-state="0" />
@@ -698,8 +698,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/AirportDelayReducer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+        <state relative-caret-position="210">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

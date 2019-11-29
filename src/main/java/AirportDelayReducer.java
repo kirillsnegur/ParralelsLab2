@@ -11,7 +11,8 @@ public class AirportDelayReducer extends Reducer<RaceComparable, Text, Text, Lon
     protected void reduce(RaceComparable key, Iterable<Text> values, Context context) throws IOException, InterruptedException {
         Iterator<Text> iterator = values.iterator();
         double delayMax = 0, delaySum = 0, delayMin = 0, actualDelay;
-        int = 
+        int count = 0;
+        
         while (iterator.hasNext()){
             actualDelay = Double.parseDouble(iterator.next().toString());
             if (actualDelay > delayMax) {
