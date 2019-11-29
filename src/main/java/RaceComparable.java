@@ -4,10 +4,10 @@ import java.io.DataInput;
 import java.io.DataOutput;
 import java.io.IOException;
 
-public class RaceCompare implements WritableComparable {
+public class RaceComparable implements WritableComparable {
+
     private int a;
     private int b;
-
 
     public void readFields(DataInput in) throws IOException{
         a = readFields(a);
