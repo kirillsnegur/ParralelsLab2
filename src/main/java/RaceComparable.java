@@ -19,8 +19,8 @@ public class RaceComparable implements WritableComparable {
         out.write(b);
     };
 
-    int compareTo(RaceComparable c){
-        int presentValue = ;
+    public int compareTo(RaceComparable c){
+        int presentValue = this.get;
         int CompareValue = ;
         return presentValue < CompareValue ? -1 : (presentValue == CompareValue) ? 0 : -1));
     }
