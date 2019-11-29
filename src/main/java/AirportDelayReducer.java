@@ -25,7 +25,7 @@ public class AirportDelayReducer extends Reducer<RaceComparable, Text, Text, Tex
 
         if (count == 0) return;
         String contextOut = "delayMin: " + delayMin + "; delayAverage: "+ delaySum/count + "; delayMax: " + delayMax + ";";
-        context.write(key, contextOut);
+        context.write(, contextOut);
 
     }
 }
