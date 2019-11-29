@@ -26,7 +26,7 @@ public class AirplanesDelayApp {
         job.setReducerClass(AirportDelayReducer.class);
 
         job.setPartitionerClass(RaceAirportPartitioner.class);
-        job.set
+        job.setGroupingComparatorClass();
 
         job.setOutputKeyClass(Text.class);
         job.setOutputValueClass(IntWritable.class);
