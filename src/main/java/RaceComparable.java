@@ -14,11 +14,11 @@ public class RaceComparable implements WritableComparable<RaceComparable> {
     private int airport_id;
     private int value;
 
-    private int getAirport_id(){
+    public int getAirport_id(){
         return airport_id;
     }
 
-    private int getValue() {
+    public int getValue() {
         return value;
     }
 
