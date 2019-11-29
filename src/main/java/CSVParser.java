@@ -10,6 +10,6 @@ public class CSVParser {
         return  (v.equals("\"ARR_DELAY\""));
     }
 
-    
+
 
 }
