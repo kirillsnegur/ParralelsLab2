@@ -10,8 +10,7 @@ public class AirportDelayReducer extends Reducer<RaceComparable, Text, Text, Tex
     @Override
     protected void reduce(RaceComparable key, Iterable<Text> values, Context context) throws IOException, InterruptedException {
         Iterator<Text> iterator = values.iterator();
-        Text name = new Text() {
-        }
+        Text name = new Text()
         double delayMax = 0, delaySum = 0, delayMin = 0, actualDelay;
         int count = 0;
         while (iterator.hasNext()){
