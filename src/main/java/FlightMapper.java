@@ -8,6 +8,6 @@ public class FlightMapper extends Mapper<LongWritable, Text, RaceComparable, Tex
 
     @Override
     protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
-        super.map(key, value, context);
+        String 
     }
 }
