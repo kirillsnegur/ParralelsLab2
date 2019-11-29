@@ -7,7 +7,9 @@ public class CSVParser {
     };
 
     public static boolean isArrDelay(String v){
-        return  (v.equals(\"ARR_DELAY"))
+        return  (v.equals("\"ARR_DELAY\""));
     }
+
+    
 
 }
