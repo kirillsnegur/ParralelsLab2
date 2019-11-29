@@ -11,6 +11,6 @@ public class CSVParser {
     }
 
     public static int getCell(String str){
-        return Integer.parseInt(str.replace(\""))
+        return Integer.parseInt(str.replace("\""))
     }
 }
