@@ -1,2 +1,3 @@
-public class RaceMapper {
+public class FlightMapper {
+    
 }
