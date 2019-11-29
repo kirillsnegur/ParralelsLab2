@@ -11,6 +11,6 @@ public class AirportMapper extends Mapper<LongWritable, Text, RaceComparable, Te
         String attr[] = CSVParser.parseString(value);
         RaceComparable raceAirportId = new RaceComparable(CSVParser.getCell(attr[14]),0);
         Text description = new Text(attr[1]);
-        context.write(raceAirportId, delay);
+        context.write(raceAirportId, description);
     }
 }
