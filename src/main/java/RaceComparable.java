@@ -6,16 +6,20 @@ import java.io.IOException;
 
 public class RaceComparable implements WritableComparable {
 
-    private int a;
-    private int b;
+    private int airport_id;
+    private int value;
+
+    public int getAirport_id(){
+        return airport_id;
+    }
 
     public void readFields(DataInput in) throws IOException{
-        a = in.readInt();
+        airport_id = in.readInt();
         b = in.readInt();
     };
 
     public void write(DataOutput out) throws IOException {
-        out.write(a);
+        out.write(airport_id);
         out.write(b);
     };
 
