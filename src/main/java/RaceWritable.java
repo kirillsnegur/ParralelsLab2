@@ -6,7 +6,7 @@ import java.io.DataInput;
 import java.io.DataOutput;
 import java.io.IOException;
 
-public class AirportWritable implements Writable {
+public class RaceWritable implements Writable {
     private Text first;
     private Text second;
 
