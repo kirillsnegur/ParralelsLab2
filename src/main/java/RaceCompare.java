@@ -4,7 +4,7 @@ import java.io.DataInput;
 import java.io.DataOutput;
 import java.io.IOException;
 
-public class WritableCompare implements WritableComparable {
+public class RaceCompare implements WritableComparable {
     private int a;
     private int b;
 
