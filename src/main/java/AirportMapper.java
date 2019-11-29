@@ -1,4 +1,4 @@
 
 
-public class AirportMapper {
+public class AirportMapper extends Mapper{
 }
