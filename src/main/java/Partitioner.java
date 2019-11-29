@@ -1,2 +1,2 @@
-public class Partitioner {
+public class Partitioner extends {
 }
