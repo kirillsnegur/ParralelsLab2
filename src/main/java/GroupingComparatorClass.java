@@ -1,2 +1,4 @@
-public class GroupingComparatorClass extends  {
+import org.apache.hadoop.io.WritableComparator;
+
+public class GroupingComparatorClass extends WritableComparator {
 }
