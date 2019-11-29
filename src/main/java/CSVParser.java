@@ -2,7 +2,7 @@ import org.apache.hadoop.io.Text;
 
 public class CSVParser {
 
-    public static String[] 
+    public static String[] parseString
 
 
 }
