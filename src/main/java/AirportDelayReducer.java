@@ -12,7 +12,7 @@ public class AirportDelayReducer extends Reducer<RaceComparable, Text, Text, Lon
         Iterator<Text> iterator = values.iterator();
         double delayMax = 0, delaySum = 0, actualDelay;
         while (iterator.hasNext()){
-            
+            actualDelay = 
         }
     }
 }
