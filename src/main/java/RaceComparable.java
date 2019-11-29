@@ -7,7 +7,8 @@ import java.io.IOException;
 public class RaceComparable implements WritableComparable<RaceComparable> {
 
     RaceComparable(int airport_id, int value){
-        
+        this.airport_id = airport_id;
+        this.value = value;
     }
 
     private int airport_id;
