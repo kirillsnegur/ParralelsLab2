@@ -10,5 +10,5 @@ public class CSVParser {
         return  (v.equals("\"ARR_DELAY\""));
     }
 
-    public static 
+    public static int getData
 }
