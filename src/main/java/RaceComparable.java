@@ -10,8 +10,8 @@ public class RaceComparable implements WritableComparable {
     private int b;
 
     public void readFields(DataInput in) throws IOException{
-        a = readFields(a);
-        b = readFields(b);
+        a = in.readInt();
+        b = in.readInt();
     };
 
     public void write(DataOutput out) throws IOException {
@@ -19,9 +19,9 @@ public class RaceComparable implements WritableComparable {
         out.write(b);
     };
 
-    int compareTo(WritableComparable c){
-        int presentValue = this.value;
-        int CompareValue = c.value;
+    int compareTo(RaceComparable c){
+        int presentValue = ;
+        int CompareValue = ;
         return presentValue < CompareValue ? -1 : (presentValue == CompareValue) ? 0 : -1));
     }
 
