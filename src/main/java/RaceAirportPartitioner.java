@@ -5,6 +5,6 @@ public class RaceAirportPartitioner extends Partitioner<RaceComparable, Text> {
 
     @Override
     public int getPartition(RaceComparable raceComparable, Text text, int i) {
-        return raceComparable.getAirport_id()
+        return raceComparable.getAirport_id() % i;
     }
 }
