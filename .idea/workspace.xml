@@ -34,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CSVParser.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CSVParser.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/CSVParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -55,7 +55,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RaceComparable.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RaceComparable.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/RaceComparable.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="468">
@@ -258,12 +258,12 @@
       <workItem from="1573203857134" duration="1162000" />
       <workItem from="1573244381240" duration="25000" />
       <workItem from="1574948563582" duration="3867000" />
-      <workItem from="1575027392502" duration="5774000" />
+      <workItem from="1575027392502" duration="6093000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15614000" />
+    <option name="totallyTimeSpent" value="15933000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-55" y="23" width="1295" height="1057" extended-state="0" />
@@ -537,13 +537,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CSVParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/RaceWritable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -565,6 +558,13 @@
             <element signature="e#336#337#0" expanded="true" />
             <element signature="e#364#365#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CSVParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
