@@ -14,7 +14,7 @@ public class AirplanesDelayApp {
         }
         Job job = Job.getInstance();
         job.setJarByClass(AirplanesDelayApp.class);
-        job.setJobName("Word count");
+        job.setJobName("AirplanesDelay");
         FileInputFormat.addInputPath(job, new Path(args[0]));
         FileOutputFormat.setOutputPath(job, new Path(args[1]));
         job.setMapperClass(WordMapper.class);
