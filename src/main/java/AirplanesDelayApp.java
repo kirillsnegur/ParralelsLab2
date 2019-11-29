@@ -22,7 +22,7 @@ public class AirplanesDelayApp {
 
         MultipleInputs.addInputPath(job, new Path(args[0]), TextInputFormat.class, FlightMapper.class);
         MultipleInputs.addInputPath(job, new Path(args[1]), TextInputFormat.class, AirportMapper.class);
-        FileOutputFormat.setOutputPath(job,);
+        FileOutputFormat.setOutputPath(job, new Path());
         job.setReducerClass(AirportDelayReducer);
         job.setOutputKeyClass(Text.class);
         job.setOutputValueClass(IntWritable.class);
