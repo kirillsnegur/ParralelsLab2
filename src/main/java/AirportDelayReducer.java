@@ -19,6 +19,7 @@ public class AirportDelayReducer extends Reducer<RaceComparable, Text, Text, Lon
             } else if (actualDelay < delayMin){
                 delayMin = actualDelay;
             }
+            
 
         }
     }
