@@ -13,14 +13,14 @@ public class AirportDelayReducer extends Reducer<RaceComparable, Text, Text, Lon
         double delayMax = 0, delaySum = 0, delayMin = 0, actualDelay;
         int count = 0;
         while (iterator.hasNext()){
+            count++;
             actualDelay = Double.parseDouble(iterator.next().toString());
             if (actualDelay > delayMax) {
                 delayMax = actualDelay;
             } else if (actualDelay < delayMin){
                 delayMin = actualDelay;
             }
-            
-
+            delaySum += actualDelay;
         }
     }
 }
