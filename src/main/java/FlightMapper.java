@@ -9,7 +9,7 @@ public class FlightMapper extends Mapper<LongWritable, Text, RaceComparable, Tex
     @Override
     protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
         String attr[] = CSVParser.parseString(value);
-        RaceComparable raceAirPortId = new RaceComparable();
+        RaceComparable raceAirPortId = new RaceComparable(CSVParser);
         Text delay = new Text();
         context.write(raceAirPortId, delay);
     }
