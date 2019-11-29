@@ -6,6 +6,10 @@ import java.io.IOException;
 
 public class RaceComparable implements WritableComparable<RaceComparable> {
 
+    RaceComparable(){
+        
+    }
+
     private int airport_id;
     private int value;
 
