@@ -1,5 +1,7 @@
 import org.apache.hadoop.mapreduce.Reducer;
 
-public class AirportDelayReducer extends Reducer<RaceComparable> {
+import javax.xml.soap.Text;
+
+public class AirportDelayReducer extends Reducer<RaceComparable, Text, Text, Text> {
 
 }
