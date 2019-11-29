@@ -22,5 +22,7 @@ public class AirportDelayReducer extends Reducer<RaceComparable, Text, Text, Lon
             }
             delaySum += actualDelay;
         }
+
+        
     }
 }
