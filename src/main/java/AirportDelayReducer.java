@@ -24,7 +24,7 @@ public class AirportDelayReducer extends Reducer<RaceComparable, Text, Text, Lon
         }
 
         if (count == 0) return;
-        context.write(key,);
+        context.write(key, new Text());
 
     }
 }
