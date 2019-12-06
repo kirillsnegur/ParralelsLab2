@@ -7,7 +7,7 @@ public class CSVParser {
     };
 
     public static String[] parseStringQuote(Text str){
-        return str.toString().split(",");
+        return str.toString().split(",(?=\")");
     };
 
 
