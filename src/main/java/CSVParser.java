@@ -11,7 +11,7 @@ public class CSVParser {
     }
 
     public static boolean isDesription(String v){
-        return  (v.equals(""));
+        return  (v.equals("Description"));
     }
 
     public static int getCell(String str){
