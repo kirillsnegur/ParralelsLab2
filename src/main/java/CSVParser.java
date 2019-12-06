@@ -6,7 +6,7 @@ public class CSVParser {
         return str.toString().split(",");
     };
 
-    public static String[] parseString(Text str){
+    public static String[] parseStringQuote(Text str){
         return str.toString().split(",");
     };
 
