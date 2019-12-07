@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a9b71f4-3c30-47b0-b772-6a7007b1eebf" name="Default" comment="" />
+    <list default="true" id="2a9b71f4-3c30-47b0-b772-6a7007b1eebf" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/AirportDelayReducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AirportDelayReducer.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,8 +69,8 @@
       <file leaf-file-name="AirportDelayReducer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/AirportDelayReducer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="27" column="37" lean-forward="true" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+            <state relative-caret-position="258">
+              <caret line="19" column="41" lean-forward="true" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -155,13 +157,13 @@
         <option value="$PROJECT_DIR$/src/main/java/RaceCompare.java" />
         <option value="$PROJECT_DIR$/src/main/java/Partitioner.java" />
         <option value="$PROJECT_DIR$/src/main/java/RaceAirportPartitioner.java" />
-        <option value="$PROJECT_DIR$/src/main/java/AirportDelayReducer.java" />
         <option value="$PROJECT_DIR$/src/main/java/FlightMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/AirplanesDelayApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/RaceComparable.java" />
         <option value="$PROJECT_DIR$/src/main/java/AirportMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/CSVParser.java" />
         <option value="$PROJECT_DIR$/src/main/java/GroupingComparatorClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AirportDelayReducer.java" />
       </list>
     </option>
   </component>
@@ -326,16 +328,15 @@
       <workItem from="1575645373580" duration="995000" />
       <workItem from="1575646397350" duration="2804000" />
       <workItem from="1575655148287" duration="1950000" />
-      <workItem from="1575705538098" duration="2544000" />
+      <workItem from="1575705538098" duration="2849000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34011000" />
+    <option name="totallyTimeSpent" value="34316000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="11" y="24" width="1258" height="1057" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -348,10 +349,10 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32916668" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.428125" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.428125" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21710527" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21710527" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -767,8 +768,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/AirportDelayReducer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="27" column="37" lean-forward="true" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+        <state relative-caret-position="258">
+          <caret line="19" column="41" lean-forward="true" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
