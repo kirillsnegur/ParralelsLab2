@@ -3,7 +3,7 @@ import org.apache.hadoop.io.WritableComparator;
 
 public class GroupingComparatorClass extends WritableComparator{
 
-    public GroupingComparatorClass(){
+    protected GroupingComparatorClass(){
         super(RaceComparable.class, true);
     }
 
