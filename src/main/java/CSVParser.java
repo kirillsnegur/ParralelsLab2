@@ -15,8 +15,8 @@ public class CSVParser {
 //        return  (v.equals("\"ARR_DELAY\""));
 //    }
 
-    public static boolean isAirport(String v){
-        return  (v.equals("\"DAY_OF_WEEK\""));
+    public static boolean isDestAirport(String v){
+        return  (v.equals("\"DEST_AIRPORT_ID\""));
     }
 
     public static boolean isDesription(String v){
