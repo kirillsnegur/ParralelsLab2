@@ -1,4 +1,5 @@
 import org.apache.hadoop.io.Text;
+import org.apache.hadoop.io.WritableComparable;
 import org.apache.hadoop.io.WritableComparator;
 
 public class GroupingComparatorClass extends WritableComparator{
@@ -8,7 +9,7 @@ public class GroupingComparatorClass extends WritableComparator{
     }
 
     @Override
-    public int compare(RaceComparable a, RaceComparable b) {
+    public int compare(WritableComparable a, RaceComparable b) {
         return Integer.compare(a.getAirport_id(), b.getAirport_id());
     }
 }
