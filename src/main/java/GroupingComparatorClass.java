@@ -9,6 +9,6 @@ public class GroupingComparatorClass extends WritableComparator{
 
     @Override
     public int compare(RaceComparable a, RaceComparable b) {
-        return super.compare(a, b);
+        return .compare(a, b);
     }
 }
