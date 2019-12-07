@@ -15,7 +15,7 @@ public class CSVParser {
 //        return  (v.equals("\"ARR_DELAY\""));
 //    }
 
-    public static boolean isArrDelay(String v){
+    public static boolean isAirport(String v){
         return  (v.equals("\"DAY_OF_WEEK\""));
     }
 
