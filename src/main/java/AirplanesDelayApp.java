@@ -10,7 +10,7 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
 public class AirplanesDelayApp {
     public static void main(String[] args) throws Exception {
-        if (args.length != 2) {
+        if (args.length != 3) {
             System.err.println("Usage: AirplanesDelayApp <input pathRaces> <input Airports> <output pathResult>");
             System.exit(-1);
         }
