@@ -3,7 +3,7 @@ import org.apache.hadoop.io.WritableComparator;
 
 public class GroupingComparatorClass extends WritableComparator{
 
-    public 
+    public GroupingComparatorClass
 
     @Override
     public int compare(Object a, Object b) {
