@@ -15,7 +15,8 @@ public class AirportDelayReducer extends Reducer<RaceComparable, Text, Text, Tex
         int count = 0;
         while (iterator.hasNext()){
             count++;
-            actualDelay = Double.parseDouble(iterator.next().toString());
+            String delayStr = iterator.next().toString();
+            actualDelay = delayStr.equals("") ? 0 : Double.parseDouble(delayStr);
             if (actualDelay > delayMax) {
                 delayMax = actualDelay;
             } else if (actualDelay < delayMin){
