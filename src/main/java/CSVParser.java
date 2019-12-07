@@ -11,8 +11,12 @@ public class CSVParser {
     };
 
 
+//    public static boolean isArrDelay(String v){
+//        return  (v.equals("\"ARR_DELAY\""));
+//    }
+
     public static boolean isArrDelay(String v){
-        return  (v.equals("\"ARR_DELAY\""));
+        return  (v.equals("\"\""));
     }
 
     public static boolean isDesription(String v){
