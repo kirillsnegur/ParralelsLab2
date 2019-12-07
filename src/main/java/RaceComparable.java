@@ -10,8 +10,6 @@ public class RaceComparable implements WritableComparable<RaceComparable> {
     private int value;
 
     RaceComparable(){ };
-
-
     RaceComparable(int airport_id, int value){
         this.airport_id = airport_id;
         this.value = value;
