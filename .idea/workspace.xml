@@ -41,7 +41,7 @@
       <file leaf-file-name="RaceWritable.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/RaceWritable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
+            <state relative-caret-position="120">
               <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -53,12 +53,12 @@
       <file leaf-file-name="GroupingComparatorClass.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/GroupingComparatorClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="210">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#206#207#0" expanded="true" />
-                <element signature="e#248#249#0" expanded="true" />
+                <element signature="e#185#186#0" expanded="true" />
+                <element signature="e#234#235#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -157,11 +157,11 @@
         <option value="$PROJECT_DIR$/src/main/java/RaceAirportPartitioner.java" />
         <option value="$PROJECT_DIR$/src/main/java/AirportDelayReducer.java" />
         <option value="$PROJECT_DIR$/src/main/java/FlightMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/GroupingComparatorClass.java" />
         <option value="$PROJECT_DIR$/src/main/java/AirplanesDelayApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/RaceComparable.java" />
         <option value="$PROJECT_DIR$/src/main/java/AirportMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/CSVParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/GroupingComparatorClass.java" />
       </list>
     </option>
   </component>
@@ -326,12 +326,12 @@
       <workItem from="1575645373580" duration="995000" />
       <workItem from="1575646397350" duration="2804000" />
       <workItem from="1575655148287" duration="1950000" />
-      <workItem from="1575705538098" duration="1732000" />
+      <workItem from="1575705538098" duration="1961000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33199000" />
+    <option name="totallyTimeSpent" value="33428000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="11" y="24" width="1258" height="1057" extended-state="0" />
@@ -380,8 +380,8 @@
           <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#206#207#0" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -473,8 +473,8 @@
           <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#206#207#0" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -685,16 +685,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/RaceWritable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/RaceAirportPartitioner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -753,6 +743,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/RaceWritable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/RaceComparable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -765,12 +765,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/GroupingComparatorClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#206#207#0" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
           </folding>
         </state>
       </provider>
