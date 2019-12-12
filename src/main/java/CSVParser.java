@@ -11,13 +11,13 @@ public class CSVParser {
     };
 
 
-//    public static boolean isArrDelay(String v){
-//        return  (v.equals("\"ARR_DELAY\""));
-//    }
-
-    public static boolean isDestAirport(String v){
-        return  (v.equals("\"DEST_AIRPORT_ID\""));
+    public static boolean isArrDelay(String v){
+        return  (v.equals("\"ARR_DELAY\""));
     }
+
+//    public static boolean isDestAirport(String v){
+//        return  (v.equals("\"DEST_AIRPORT_ID\""));
+//    }
 
     public static boolean isDesription(String v){
         return  (v.equals("Code,Description"));
