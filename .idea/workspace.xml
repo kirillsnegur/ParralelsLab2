@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a9b71f4-3c30-47b0-b772-6a7007b1eebf" name="Default" comment="" />
+    <list default="true" id="2a9b71f4-3c30-47b0-b772-6a7007b1eebf" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/part-r-00000" beforeDir="false" afterPath="$PROJECT_DIR$/output/part-r-00000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/part-r-00001" beforeDir="false" afterPath="$PROJECT_DIR$/output/part-r-00001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AirplanesDelayApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AirplanesDelayApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AirportDelayReducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AirportDelayReducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FlightMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FlightMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ParralelsLab2-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ParralelsLab2-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AirplanesDelayApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AirplanesDelayApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AirportDelayReducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AirportDelayReducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CSVParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CSVParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FlightMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/FlightMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RaceComparable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RaceComparable.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,8 +29,8 @@
       <file leaf-file-name="AirplanesDelayApp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/AirplanesDelayApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="547">
-              <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
+            <state relative-caret-position="336">
+              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -25,11 +38,29 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="part-r-00000" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/output/part-r-00000">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="part-r-00001" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/output/part-r-00001">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="CSVParser.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/CSVParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding>
                 <element signature="e#109#110#0" expanded="true" />
                 <element signature="e#157#158#0" expanded="true" />
@@ -43,20 +74,8 @@
       <file leaf-file-name="RaceWritable.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/RaceWritable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GroupingComparatorClass.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/GroupingComparatorClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="255">
+              <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -67,8 +86,8 @@
       <file leaf-file-name="AirportDelayReducer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/AirportDelayReducer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+            <state relative-caret-position="379">
+              <caret line="50" column="32" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,8 +98,8 @@
       <file leaf-file-name="RaceComparable.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/RaceComparable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+            <state relative-caret-position="150">
+              <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -91,8 +110,8 @@
       <file leaf-file-name="FlightMapper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/FlightMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="19" column="67" selection-start-line="19" selection-start-column="67" selection-end-line="19" selection-end-column="67" />
+            <state relative-caret-position="285">
+              <caret line="19" column="78" selection-start-line="19" selection-start-column="74" selection-end-line="19" selection-end-column="78" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -103,7 +122,7 @@
       <file leaf-file-name="RaceAirportPartitioner.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/RaceAirportPartitioner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
+            <state relative-caret-position="30">
               <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -112,7 +131,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AirportMapper.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AirportMapper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/AirportMapper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
@@ -164,9 +183,9 @@
         <option value="$PROJECT_DIR$/src/main/java/GroupingComparatorClass.java" />
         <option value="$PROJECT_DIR$/src/main/java/RaceComparable.java" />
         <option value="$PROJECT_DIR$/src/main/java/CSVParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AirportDelayReducer.java" />
         <option value="$PROJECT_DIR$/src/main/java/FlightMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/AirplanesDelayApp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/AirportDelayReducer.java" />
       </list>
     </option>
   </component>
@@ -185,7 +204,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="11" />
     <option name="y" value="24" />
-    <option name="width" value="1258" />
+    <option name="width" value="1498" />
     <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -194,7 +213,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -246,6 +264,7 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -338,14 +357,15 @@
       <workItem from="1575655148287" duration="1950000" />
       <workItem from="1575705538098" duration="7287000" />
       <workItem from="1576162543335" duration="4331000" />
+      <workItem from="1576176551703" duration="2130000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43085000" />
+    <option name="totallyTimeSpent" value="45215000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="11" y="24" width="1258" height="1057" extended-state="0" />
+    <frame x="11" y="24" width="1498" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -359,10 +379,10 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32916668" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.428125" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.428125" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3462171" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29395604" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -385,26 +405,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/AirportMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="9" column="74" selection-start-line="9" selection-start-column="74" selection-end-line="9" selection-end-column="74" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AirportDelayReducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/FlightMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -691,42 +691,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AirplanesDelayApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CSVParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="e#109#110#0" expanded="true" />
-            <element signature="e#157#158#0" expanded="true" />
-            <element signature="e#319#320#0" expanded="true" />
-            <element signature="e#370#371#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/FlightMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="19" column="67" selection-start-line="19" selection-start-column="67" selection-end-line="19" selection-end-column="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/GroupingComparatorClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
+        <state relative-caret-position="30">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -736,7 +703,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/RaceAirportPartitioner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
+        <state relative-caret-position="30">
           <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -746,8 +713,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/RaceComparable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        <state relative-caret-position="150">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -756,18 +723,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/RaceWritable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AirportDelayReducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+        <state relative-caret-position="255">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -781,6 +738,63 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CSVParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#109#110#0" expanded="true" />
+            <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AirportDelayReducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="50" column="32" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FlightMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="78" selection-start-line="19" selection-start-column="74" selection-end-line="19" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AirplanesDelayApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/part-r-00001">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/part-r-00000">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>

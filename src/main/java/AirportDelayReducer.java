@@ -33,10 +33,11 @@ import java.util.Iterator;
 //    }
 
 
-public class AirportDelayReducer extends Reducer<IntWritable, Text, IntWritable, Text> {
+public class AirportDelayReducer extends Reducer<IntWritable, Text, Text, Text> {
 
     @Override
     protected void reduce(IntWritable key, Iterable<Text> values, Context context) throws IOException, InterruptedException {
+        Text dayOfWeek = new Text(key.toString());
         double delayMax = 0, actualDelay;
         Iterator<Text> iterator = values.iterator();
         while (iterator.hasNext()) {
@@ -47,6 +48,6 @@ public class AirportDelayReducer extends Reducer<IntWritable, Text, IntWritable,
             }
         }
         String contextOut = "delayMax: " + delayMax;
-        context.write(key,new Text(contextOut));
+        context.write(dayOfWeek,new Text(contextOut));
     }
 }

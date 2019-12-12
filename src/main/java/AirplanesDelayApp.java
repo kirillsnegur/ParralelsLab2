@@ -40,7 +40,7 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 public class AirplanesDelayApp {
     public static void main(String[] args) throws Exception {
         if (args.length != 2) {
-            System.err.println("Usage: AirplanesDelayApp <input pathRaces> <input Airports> <output pathResult>");
+            System.err.println("Usage: AirplanesDelayApp <input pathRaces> <output pathResult>");
             System.exit(-1);
         }
         Job job = Job.getInstance();
@@ -52,6 +52,9 @@ public class AirplanesDelayApp {
 
         job.setMapperClass(FlightMapper.class);
         job.setReducerClass(AirportDelayReducer.class);
+
+        job.setMapOutputKeyClass(IntWritable.class);
+        job.setMapOutputValueClass(Text.class);
 
         job.setOutputKeyClass(Text.class);
         job.setOutputValueClass(Text.class);
