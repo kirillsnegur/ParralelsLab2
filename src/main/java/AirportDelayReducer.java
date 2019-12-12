@@ -6,7 +6,7 @@ import org.apache.hadoop.mapreduce.Reducer;
 import java.io.IOException;
 import java.util.Iterator;
 
-public class AirportDelayReducer extends Reducer<IntWritable, Text, Text, Text> {
+//public class AirportDelayReducer extends Reducer<RaceComparable, Text, Text, Text> {
 
 //    @Override
 //    protected void reduce(RaceComparable key, Iterable<Text> values, Context context) throws IOException, InterruptedException {
@@ -32,8 +32,21 @@ public class AirportDelayReducer extends Reducer<IntWritable, Text, Text, Text> 
 //
 //    }
 
+
+public class AirportDelayReducer extends Reducer<IntWritable, Text, IntWritable, Text> {
+
     @Override
     protected void reduce(IntWritable key, Iterable<Text> values, Context context) throws IOException, InterruptedException {
-
+        double delayMax = 0, actualDelay;
+        Iterator<Text> iterator = values.iterator();
+        while (iterator.hasNext()) {
+            String delayStr = iterator.next().toString();
+            actualDelay = delayStr.equals("") ? 0 : Double.parseDouble(delayStr);
+            if (actualDelay > delayMax) {
+                delayMax = actualDelay;
+            }
+        }
+        String contextOut = "delayMax: " + delayMax;
+        context.write(key,new Text(contextOut));
     }
 }
